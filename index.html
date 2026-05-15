@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyGlass</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <aside>
+        <div class="head-aside">
+            <h1>SkyGlass</h1>
+            <p>Local Weather</p>
+        </div>
+
+        <nav>
+            <a href="index.html" class="actual_page">
+                <i class="fa-brands fa-slack"></i>
+                <span>DashBoard</span>
+            </a>
+
+            <a href="">
+                <i class="fa-regular fa-calendar-days"></i>
+                <span>Forecast</span>
+            </a>
+        
+            <a href="">
+                <i class="fa-regular fa-map"></i>
+                <span>Radar Map</span>
+            </a>
+        
+            <a href="">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Local Time</span>
+            </a>    
+        </nav>
+
+    </aside>
+
+    <main>
+        <header>
+
+            <div class="div_search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search for cities...">
+            </div>
+
+
+            <div class="div_header_right">
+
+                <div class="div_header_icons">
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+
+                <div class="div_header_user">
+                    <h2>User</h2>
+                    <img src="" alt="">
+                </div>
+            </div>   
+
+        </header>
+
+        <div class="div_main_mid"><!--parte da temperatura e sol-->
+            <div class="div_location">
+
+                <div class="div_city">
+                    <i class="fa-solid fa-location-dot icon_city"></i>
+                    <h1 class="h1_city">LONDON, UK</h1>
+                </div>
+
+                <div class="div_temp">
+                    <h2>24</h2>
+                    <div>
+                        <h3>Party Cloud</h3>
+                        <p>H: 28 L: 19</p>
+                    </div>
+                </div>
+
+            </div>
+            <i class="fa-solid fa-cloud-sun"></i>
+        </div>  
+        
+        <div class="div_forecast"><!--24 horas clima-->
+            <h1>24-HOUR FORECAST</h1>
+            <div class="all_cards_forecast">
+
+                <div class="card_forecast">
+                    <h2>Now</h2>
+                </div>
+
+                <div class="card_forecast">
+                    <h2>Now</h2>
+                </div>
+
+                <div class="card_forecast">
+                    <h2>Now</h2>
+                </div>
+
+                <div class="card_forecast">
+                    <h2>Now</h2>
+                </div>
+
+                <div class="card_forecast">
+                    <h2>Now</h2>
+                </div>
+
+            </div>
+
+        </div>
+        <!--Working-->
+        <div class="div_cards_climate">
+            <!--outras paradas do clima-->
+            <div class="row_cards">
+                <div class="card_climate">
+                    <i class="fa-solid fa-sun"></i>
+                    <h2>UV INDEX</h2>
+                </div>
+
+                <div class="card_climate">
+                    <i class="fa-solid fa-droplet"></i>
+                    <h2>HUMIDITY</h2>
+                </div>
+
+                <div class="card_climate">
+                    <i class="fa-solid fa-wind"></i>
+                    <h2>WIND</h2>
+                </div>
+            </div>
+
+            <div class="row_cards">
+                <div class="card_climate">
+                    <i class="fa-solid fa-eye"></i>
+                    <h2>VISIBILITY</h2>
+                </div>
+
+                <div class="card_climate">
+                    <i class="fa-solid fa-gauge-high"></i>
+                    <h2>PRESSURE</h2>
+                </div>
+
+                <div class="card_climate">
+                    <i class="fa-regular fa-map"></i>
+                    <h2>RADAR</h2>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
