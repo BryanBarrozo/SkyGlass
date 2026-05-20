@@ -179,7 +179,33 @@ header{
 .fa-magnifying-glass{
     color: #00e5ff;
 }
+/*-----------------------------------------------*/
 
+#suggestions {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(24px);
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+#suggestions div {
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#suggestions div:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+/*-----------------------------------------------*/
 .div_header_right{
     height: 100%;
     width: 40%;
@@ -294,6 +320,9 @@ header{
 
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 10px;
+    padding: 10px;
+
+    color: #ffffff;
 
     cursor: pointer;
     transition: 0.3s;
@@ -301,6 +330,9 @@ header{
 
 .card_forecast:hover{
     background: rgba(255, 255, 255, 0.20);
+}
+.card_forecast h2{
+    font-size: 20px;
 }
 
 /*DIV cards Climate*/
@@ -321,7 +353,7 @@ header{
     width: 300px;
     height: 140px;
 
-    display: flex;
+    display: grid;
 
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%,rgba(255, 255, 255, 0.05) 100%);
 
@@ -330,16 +362,23 @@ header{
 
     color: #ffffff;
 
-    gap: 10px;
     padding: 20px;
 }
 
-.card_climate i {
+.card_climate div{
+    display: flex;
+    gap: 10px;
+}
+.card_climate div i{
     font-size: 20px;
     
 }
-.card_climate h2 {
+.card_climate div h2{
     font-size: 18px;
+    font-weight: 600;
+}
+.card_climate h3{
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -357,6 +396,7 @@ Cores:
 
 Falta:
 Adicionar img no header usuario
-
+input dinamico como nome dos paises
+localstorage para salvar a ultima cidade do usuario
 
 */
