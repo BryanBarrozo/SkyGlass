@@ -68,6 +68,7 @@ O objetivo do projeto foi praticar consumo de APIs, manipulação de dados em te
 
 ### Dashboard Principal
 <img width="1428" height="766" alt="skyglass2" src="https://github.com/user-attachments/assets/ce2394f9-4592-4f37-934d-d47e48a3bbc9" />
+
 ### Forecast
 <img width="783" height="231" alt="forecast" src="https://github.com/user-attachments/assets/e8710471-3f8c-4ac1-8476-0da85c02fef0" />
 
